@@ -37,37 +37,57 @@
     },
     "assets": [
         {
-            "name": "BCH",
-            "prec_save": 20,
-            "prec_show": 8
+            "name": "USDT",
+            "prec_save": 12,
+            "prec_show": 12
         }, {
             "name": "BTC",
             "prec_save": 12,
-            "prec_show": 8
+            "prec_show": 12
         }, {
             "name": "LTC",
             "prec_save": 12,
-            "prec_show": 8
+            "prec_show": 12
         }, {
             "name": "ETH",
-            "prec_save": 12,
-            "prec_show": 8
+            "prec_save": 16,
+            "prec_show": 16
         }, {
             "name": "ETC",
-            "prec_save": 12,
-            "prec_show": 8
+            "prec_save": 16,
+            "prec_show": 16
         }, {
             "name": "ZEC",
             "prec_save": 12,
-            "prec_show": 8
+            "prec_show": 12
         }, {
             "name": "XMR",
             "prec_save": 12,
-            "prec_show": 8
+            "prec_show": 12
         }, {
             "name": "DSH",
             "prec_save": 12,
+            "prec_show": 12
+        }, {
+            "name": "ETNX",
+            "prec_save": 8,
             "prec_show": 8
+        }, {
+            "name": "ETNXP",
+            "prec_save": 6,
+            "prec_show": 6
+        }, {
+            "name": "LTNX",
+            "prec_save": 8,
+            "prec_show": 8
+        }, {
+            "name": "GLDX",
+            "prec_save": 12,
+            "prec_show": 12
+        }, {
+            "name": "CRFI",
+            "prec_save": 12,
+            "prec_show": 12
         }
     ],
     "markets": [
@@ -75,79 +95,79 @@
             "name": "BTCBCH",
             "stock": {
                 "name": "BTC",
-                "prec": 8
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
-                "prec": 8
+                "name": "USDT",
+                "prec": 12
             },
             "min_amount": "0.001"
         }, {
-            "name": "LTCBCH",
+            "name": "LTCETNX",
             "stock": {
                 "name": "LTC",
-                "prec": 8
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
+                "name": "ETNX",
                 "prec": 8
             },
-            "min_amount": "0.001"
+            "min_amount": "0.000001"
         }, {
-            "name": "ETHBCH",
+            "name": "LTCETNXP",
             "stock": {
-                "name": "ETH",
-                "prec": 8
+                "name": "LTC",
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
-                "prec": 8
+                "name": "ETNXP",
+                "prec": 6
             },
-            "min_amount": "0.001"
+            "min_amount": "0.0001"
         }, {
-            "name": "ETCBCH",
+            "name": "USDTETNX",
             "stock": {
-                "name": "ETC",
-                "prec": 8
+                "name": "USDT",
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
+                "name": "ETNX",
                 "prec": 8
             },
-            "min_amount": "0.001"
+            "min_amount": "0.000001"
         }, {
-            "name": "ZECBCH",
+            "name": "USDTETNXP",
             "stock": {
-                "name": "ZEC",
-                "prec": 8
+                "name": "USDT",
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
-                "prec": 8
+                "name": "ETNXP",
+                "prec": 6
             },
-            "min_amount": "0.001"
+            "min_amount": "0.0001"
         }, {
-            "name": "XMRBCH",
+            "name": "XMRETNX",
             "stock": {
                 "name": "XMR",
-                "prec": 8
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
+                "name": "ETNX",
                 "prec": 8
             },
-            "min_amount": "0.001"
+            "min_amount": "0.000001"
         }, {
-            "name": "DSHBCH",
+            "name": "XMRETNXP",
             "stock": {
-                "name": "DSH",
-                "prec": 8
+                "name": "XMR",
+                "prec": 12
             },
             "money": {
-                "name": "BCH",
-                "prec": 8
+                "name": "ETNXP",
+                "prec": 6
             },
-            "min_amount": "0.001"
+            "min_amount": "0.0001"
         }
     ],
     "brokers": "127.0.0.1:9092",
